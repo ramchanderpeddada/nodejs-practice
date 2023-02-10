@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "nodejs",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Ram",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.20"
@@ -18,6 +18,7 @@
     "ejs": "^3.1.8",
     "express": "^4.16.3",
     "express-handlebars": "^6.0.7",
+    "mysql2": "^3.1.2",
     "pug": "^3.0.2"
   }
 }
